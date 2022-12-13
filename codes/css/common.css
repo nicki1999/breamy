@@ -1,0 +1,42 @@
+/* mobile screen size */
+
+body {
+    color: black !important;
+    overflow: hidden;
+}
+
+img.logo {
+    width: 250px !important;
+    height: 210px !important;
+}
+
+div.carousel-item {
+    padding: 32px;
+}
+
+div.carousel-item:nth-child(1) {
+    /*background-color: #ffe4e1;*/
+    background-color: #ffe4e18a;
+}
+
+div.carousel-item:nth-child(3) {
+    background-color: #98ff983d;
+    opacity: 30%;
+}
+
+div.carousel-item:nth-child(2) {
+    background-color: #c9a0dc4a;
+}
+
+div.carousel-item:nth-child(4) {
+    background-color: #FFCFD2;
+}
+
+.carousel .indicators .indicator-item {
+    background-color: black;
+    opacity: 30%;
+}
+
+.carousel .indicators .indicator-item.active {
+    background-color: #b53389;
+}
